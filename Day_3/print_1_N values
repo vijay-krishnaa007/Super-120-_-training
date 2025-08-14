@@ -1,0 +1,5 @@
+def recursion(n):
+    if n!=0:
+        print(n,end=" ")
+        recursion(n-1)
+recursion(5)
